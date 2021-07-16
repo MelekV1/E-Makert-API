@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace E_Market_API.Domain.Services
+namespace E_Market_API.Domain.Repositories
 {
-    public interface ICategoryService
+    public interface ICategoryRepository
     {
         Task<IEnumerable<Category>> ListAsync();
     }
