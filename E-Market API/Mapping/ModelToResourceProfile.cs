@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using E_Market_API.Domain.Models;
+using E_Market_API.Extensions;
 using E_Market_API.Resources;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,10 @@ namespace E_Market_API.Mapping
         public ModelToResourceProfile()
         {
             CreateMap<Category, CategoryResource>();
+
+            CreateMap<Product, ProductResource>()
+                .ForMember(src => src.UnitOfMeasurement,
+                           opt => opt.MapFrom(src => src.UnitOfMeasurement.ToDescriptionString()));
         }
     }
 }

@@ -1,3 +1,8 @@
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.AssemblyInfoInputs.cache
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.AssemblyInfo.cs
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.csproj.CoreCompileInputs.cache
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.MvcApplicationPartsAssemblyInfo.cs
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.MvcApplicationPartsAssemblyInfo.cache
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\appsettings.json
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -7,24 +12,14 @@ A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\E-Market API.runtimeconfig.dev.json
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\E-Market API.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\E-Market API.pdb
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.csprojAssemblyReference.cache
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.AssemblyInfoInputs.cache
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.AssemblyInfo.cs
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.RazorTargetAssemblyInfo.cache
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\staticwebassets\E-Market API.StaticWebAssets.Manifest.cache
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\staticwebassets\E-Market API.StaticWebAssets.xml
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.pdb
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.genruntimeconfig.cache
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.csproj.CopyComplete
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
@@ -36,12 +31,17 @@ A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\AutoMapper.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.csproj.CoreCompileInputs.cache
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.MvcApplicationPartsAssemblyInfo.cs
-A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.MvcApplicationPartsAssemblyInfo.cache
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.RazorTargetAssemblyInfo.cache
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.csproj.CopyComplete
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\staticwebassets\E-Market API.StaticWebAssets.Manifest.cache
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\staticwebassets\E-Market API.StaticWebAssets.xml
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.dll
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.pdb
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.genruntimeconfig.cache
+A:\user\Learning Assets\.NET-CORE\E-Market API\E-Market API\obj\Debug\netcoreapp3.1\E-Market API.csprojAssemblyReference.cache

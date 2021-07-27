@@ -29,7 +29,6 @@ namespace E_Market_API
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         [Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
@@ -45,27 +44,12 @@ namespace E_Market_API
             services.AddScoped<ICategoryService, CategoryService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IProductService, ProductService>();
+
             services.AddAutoMapper(typeof(Startup));
-
-
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo
-                {
-                    Title = "Zomato API",
-                    Version = "v1",
-                    Description = "Description for the API goes here.",
-                    Contact = new OpenApiContact
-                    {
-                        Name = "Ankush Jain",
-                        Email = string.Empty,
-                        Url = new Uri("https://coderjony.com/"),
-                    },
-                });
-            });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -74,22 +58,9 @@ namespace E_Market_API
             }
             else
             {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            // Enable middleware to serve generated Swagger as a JSON endpoint.
-            app.UseSwagger();
-
-            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
-            // specifying the Swagger JSON endpoint.
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Zomato API V1");
-
-                // To serve SwaggerUI at application's root page, set the RoutePrefix property to an empty string.
-                c.RoutePrefix = string.Empty;
-            });
-
+         
             app.UseHttpsRedirection();
 
             app.UseRouting();
