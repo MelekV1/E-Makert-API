@@ -8,6 +8,7 @@ using E_Market_API.Resources;
 using Microsoft.AspNetCore.Mvc;
 using E_Market_API.Extensions;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
 
 namespace E_Market_API.Controllers
 {
@@ -34,6 +35,7 @@ namespace E_Market_API.Controllers
         /// <returns>List os categories.</returns>
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<CategoryResource>), 200)]
+        [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public async Task<IEnumerable<CategoryResource>> ListAsync()
         {
             var categories = await _categoryService.ListAsync();

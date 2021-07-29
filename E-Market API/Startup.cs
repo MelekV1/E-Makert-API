@@ -35,9 +35,27 @@ namespace E_Market_API
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Zomato API",
+                    Version = "v1",
+                    Description = "Description for the API goes here.",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Ankush Jain",
+                        Email = string.Empty,
+                        Url = new Uri("https://coderjony.com/"),
+                    },
+                });
+            });
+
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseInMemoryDatabase("MarketDB");
+                //options.UseSqlServer(Configuration.GetConnectionString("MarketDB"));
+
             });
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -60,7 +78,20 @@ namespace E_Market_API
             {
                 app.UseHsts();
             }
-         
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Zomato API V1");
+
+                // To serve SwaggerUI at application's root page, set the RoutePrefix property to an empty string.
+                c.RoutePrefix = string.Empty;
+            });
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

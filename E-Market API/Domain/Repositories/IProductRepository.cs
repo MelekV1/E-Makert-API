@@ -9,5 +9,7 @@ namespace E_Market_API.Domain.Repositories
     public interface IProductRepository
     {
         Task<IEnumerable<Product>> ListAsync();
+        Task AddAsync(Product product);
+
     }
 }

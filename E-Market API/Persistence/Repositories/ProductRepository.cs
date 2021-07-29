@@ -15,6 +15,11 @@ namespace E_Market_API.Persistence.Repositories
         {
         }
 
+        public async Task AddAsync(Product product)
+        {
+            await _context.Products.AddAsync(product);
+        }
+
         public async Task<IEnumerable<Product>> ListAsync()
         {
             return await _context.Products.Include(p => p.Category)

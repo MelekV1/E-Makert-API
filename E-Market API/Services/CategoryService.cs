@@ -31,6 +31,7 @@ namespace E_Market_API.Services
             {
                 await _categoryRepository.AddAsync(category);
                 await _unitOfWork.CompleteAsync();
+
                 return new CategoryResponse(category);
 
             }
